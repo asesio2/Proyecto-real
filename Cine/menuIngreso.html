@@ -4,6 +4,7 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
+
 <html>
     <head>
         <title>Cinema A Entertainment Category Flat Bootstarp Resposive Website Template | Home :: w3layouts</title>
@@ -22,8 +23,14 @@ and open the template in the editor.
         <!--webfont-->
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
         <?php
-        session_start(); // al volver al index si existe una session, esta sera destruida, existen formas de conservarlas como con un if(session_start()!= NULL). Pero por el momento para el ejemplo no es valido. 
-        session_destroy();  // Se destruye la session existente de esta forma no permite el duplicado.
+        session_name();
+        session_start();
+
+       $_SESSION["id"];
+
+        if (empty($_SESSION)) { // Recuerda usar corchetes.
+            header('Location: index.html');
+        } // Recuerda usar corchetes
         ?>
     </head>
     <body>
@@ -31,8 +38,11 @@ and open the template in the editor.
         <div class="full">
             <div class="menu">
                 <ul>
-                    <li><a href="index.html"><div class="hm"><i class="home1" style="color: white">Inicio</i><i class="home2"></i></div></a></li>
-					<li><a href="contacto.html" ><div class="cnt"><i class="contact" style="color: white">Contacto</i><i class="contact1">Contacto</i></div></a></li>
+                    <li><a class="active" href="index.html"><i class="home"></i></a></li>
+                    <li><a href="videos.html"><div class="video"><i class="videos"></i><i class="videos1"></i></div></a></li>
+                    <li><a href="reviews.html"><div class="cat"><i class="watching"></i><i class="watching1"></i></div></a></li>
+                    <li><a href="404.html"><div class="bk"><i class="booking"></i><i class="booking1"></i></div></a></li>
+                    <li><a href="contacto.html"><div class="cnt"><i class="contact"></i><i class="contact1"></i></div></a></li>
                     
                 </ul>
             </div>
@@ -46,8 +56,7 @@ and open the template in the editor.
                         <div class="search">
                             <form>
 
-                                
-                                <a href="ingreso.html"><img src="images/user.png" width="40px">Iniciar Sesion</a>
+                                <a href="ingreso.html"><span class="glyphicon glyphicon-user"></span> Iniciar Sesion</a>
 
                             </form>
                         </div>
@@ -57,19 +66,8 @@ and open the template in the editor.
                         <h3 class="head">DATOS DE INGRESO</h3>
                         <p>Favor Ingresar Sus Datos</p>
                         <div class="contact-form">
-                            <form >
-                                <div class="col-md-6 contact-left">
-                                    <input type="text" placeholder="Rut" id="txtPass" name="txtPass" required/>
-                                    <input type="text" placeholder="Contraseña"  id="txtPass" name="txtPass" required/>
-
-
-                                </div>
-                                  <div class="col-md-6 contact-right">
-					
-                                      <input type="submit" name="btnEnviar" id="btnEnviar" value="Enviar" />
-                                      
-				 </div>
-				 <div class="clearfix"></div>  
+                            <form method="POST">
+                               
 
                             </form>
                         </div>
@@ -77,16 +75,10 @@ and open the template in the editor.
                     </div>
                 </div>
                 <div class="footer">
-                    <center>
-                     <h3>Consultas : </h3>
+                    <h6>Derechos : </h6>
                     <p class="claim">Cualquier Informacion o inquietud favor contactar al siguiente correo.</p>
                     <a href="example@mail.com">example@mail.com</a>
-                    <div>
-                    <a href="http://www.twitter.com/"><img style="width: 35px " src="images/twitter.jpg">Twitter</a>
-                    <a href="http://www.instagram.com/"><img style="width: 38px" src="images/insta.png" >Instagram</a>
-                    <a href="http://www.facebook.com/"><img style="width: 38px" src="images/face.png" >Facebook</a>
-                    </div>
-                    </center>
+
                 </div>	
             </div>
             <div class="clearfix"></div>
@@ -96,3 +88,4 @@ and open the template in the editor.
 
     </body>
 </html>
+
