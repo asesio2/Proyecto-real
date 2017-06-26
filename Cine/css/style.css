@@ -85,6 +85,13 @@ p.special {
 	line-height:1.7em;
 	margin:2.2em 0;
 }
+h3 {
+    text-shadow: 0.1em 0.1em #333
+}
+p.texto1{
+    color: white; text-shadow: black 0.1em 0.1em 0.2em
+}
+
 p.age a {
 	color:#3bd369;
 	padding:7px 10px;

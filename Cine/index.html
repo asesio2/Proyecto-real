@@ -22,13 +22,20 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         <!--webfont-->
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
         <?php
-         
+
         session_destroy();  // Se destruye la session existente de esta forma no permite el duplicado.
         ?>
     </head>
     <body>
-        <!-- header-section-starts -->
-        <div class="full">
+        <style> 
+                   h2 {font-family: Impact; color:#777777; 
+                         margin:0; 
+                         font-size: 35px; 
+                         text-align:center; 
+                         text-shadow: 1px 1px 3px #323232 ;} 
+            </style> 
+            <!-- header-section-starts -->
+            <div class="full">
             <div class="menu">
                 <ul>
                     <li><a class="active" href="index.html"><i class="home" style="color: white">Inicio</i></a></li>
@@ -58,63 +65,69 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                     </div>
                     <div class="header-info">
                         <h1>Quienes Somos</h1>
-                        <p class="special">The special bond that develops between plus-sized inflatable robot Baymax, and prodigy Hiro Hamada, who team up with a group of friends to form a band of high-tech heroes.</p>
 
+                        <h3><p style="color: whitesmoke">Somos un equipo conformados por dos esforzados estudiantes de la institucion Duoc Uc.
+                                siendos guiados por el profesor francisco juliet. <br><br>
+                                Nuestra mision consiste en implementar un buen sistema de organizacion de tutorias a nivel Educacional
+                                velando por el correcto uso de estos. <br><br>
+                            </p></h3>
+                        <a href="http://www.duoc.cl/"><img src="images/duocuc1.png" width="400px"></a>
                     </div>
                 </div>
-                <div class="review-slider">
-                    <ul id="flexiselDemo1">
-                        <li><img src="images/cole1.jpg" alt=""/></li>
-                        <li><img src="images/cole2.jpg" alt=""/></li>
-                        <li><img src="images/cole3.jpg" alt=""/></li>
-                        <li><img src="images/cole4.jpg" alt=""/></li>
-                        <li><img src="images/cole5.jpg" alt=""/></li>
-                        <li><img src="images/cole6.jpg" alt=""/></li>
-                    </ul>
-                    <script type="text/javascript">
-                        $(window).load(function () {
+            </div>
+            <div class="review-slider">
+                <ul id="flexiselDemo1">
+                    <li><img src="images/cole1.jpg" alt=""/></li>
+                    <li><img src="images/cole2.jpg" alt=""/></li>
+                    <li><img src="images/cole3.jpg" alt=""/></li>
+                    <li><img src="images/cole4.jpg" alt=""/></li>
+                    <li><img src="images/cole5.jpg" alt=""/></li>
+                    <li><img src="images/cole6.jpg" alt=""/></li>
+                </ul>
+                <script type="text/javascript">
+                    $(window).load(function () {
 
-                            $("#flexiselDemo1").flexisel({
-                                visibleItems: 5,
-                                animationSpeed: 1000,
-                                autoPlay: true,
-                                autoPlaySpeed: 3000,
-                                pauseOnHover: false,
-                                enableResponsiveBreakpoints: true,
-                                responsiveBreakpoints: {
-                                    portrait: {
-                                        changePoint: 480,
-                                        visibleItems: 2
-                                    },
-                                    landscape: {
-                                        changePoint: 640,
-                                        visibleItems: 3
-                                    },
-                                    tablet: {
-                                        changePoint: 768,
-                                        visibleItems: 3
-                                    }
+                        $("#flexiselDemo1").flexisel({
+                            visibleItems: 5,
+                            animationSpeed: 1000,
+                            autoPlay: true,
+                            autoPlaySpeed: 3000,
+                            pauseOnHover: false,
+                            enableResponsiveBreakpoints: true,
+                            responsiveBreakpoints: {
+                                portrait: {
+                                    changePoint: 480,
+                                    visibleItems: 2
+                                },
+                                landscape: {
+                                    changePoint: 640,
+                                    visibleItems: 3
+                                },
+                                tablet: {
+                                    changePoint: 768,
+                                    visibleItems: 3
                                 }
-                            });
+                            }
                         });
-                    </script>
-                    <script type="text/javascript" src="js/jquery.flexisel.js"></script>	
-                </div>
+                    });
+                </script>
+                <script type="text/javascript" src="js/jquery.flexisel.js"></script>	
+            </div>
 
-                <div class="footer">
-                     <center>
-                     <h3>Consultas : </h3>
+            <div class="footer">
+                <center>
+                    <h3>Consultas : </h3>
                     <p class="claim">Cualquier Informacion o inquietud favor contactar al siguiente correo.</p>
                     <a href="example@mail.com">example@mail.com</a>
                     <div>
-                    <a href="http://www.twitter.com/"><img style="width: 35px " src="images/twitter.jpg">Twitter</a>
-                    <a href="http://www.instagram.com/"><img style="width: 38px" src="images/insta.png" >Instagram</a>
-                    <a href="http://www.facebook.com/"><img style="width: 38px" src="images/face.png" >Facebook</a>
+                        <a href="http://www.twitter.com/"><img style="width: 35px " src="images/twitter.jpg">Twitter</a>
+                        <a href="http://www.instagram.com/"><img style="width: 38px" src="images/insta.png" >Instagram</a>
+                        <a href="http://www.facebook.com/"><img style="width: 38px" src="images/face.png" >Facebook</a>
                     </div>
-                    </center>
-                </div>	
-            </div>
+                </center>
+            </div>	
         </div>
-        <div class="clearfix"></div>
-    </body>
+    </div>
+    <div class="clearfix"></div>
+</body>
 </html>
