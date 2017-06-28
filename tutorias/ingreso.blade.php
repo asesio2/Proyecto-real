@@ -31,8 +31,8 @@ and open the template in the editor.
         <div class="full">
             <div class="menu">
                 <ul>
-                    <li><a href="index.html"><div class="hm"><i class="home1" style="color: white">Inicio</i><i class="home2"></i></div></a></li>
-					<li><a href="contacto.html" ><div class="cnt"><i class="contact" style="color: white">Contacto</i><i class="contact1">Contacto</i></div></a></li>
+                    <li><a href="index.blade.php"><div class="hm"><i class="home1" style="color: white">Inicio</i><i class="home2"></i></div></a></li>
+                    <li><a href="contacto.blade.php" ><div class="cnt"><i class="contact" style="color: white">Contacto</i><i class="contact1">Contacto</i></div></a></li>
                     
                 </ul>
             </div>
@@ -40,14 +40,14 @@ and open the template in the editor.
                 <div class="header">
                     <div class="top-header">
                         <div class="logo">
-                            <a href="index.html"><img src="images/logoOficial.png" alt="" /></a>
+                            <a href="index.blade.php"><img src="images/logoOficial.png" alt="" /></a>
 
                         </div>
                         <div class="search">
                             <form>
 
                                 
-                                <a href="ingreso.html"><img src="images/user.png" width="40px">Iniciar Sesion</a>
+                                <a href="ingreso.blade.php"><img src="images/user.png" width="40px">Iniciar Sesion</a>
 
                             </form>
                         </div>
@@ -57,14 +57,14 @@ and open the template in the editor.
                         <h3 class="head">DATOS DE INGRESO</h3>
                         <p>Favor Ingresar Sus Datos</p>
                         <div class="contact-form">
-                            <form method="POST" action="/menuSecretaria.html">
+                            <form method="POST" action="menuSecretaria.blade.php">
                                 <div class="col-md-6 contact-left">
                                     <input type="text" placeholder="Rut" id="txtPass" name="txtPass" required/>
                                     <input type="text" placeholder="Contraseña"  id="txtPass" name="txtPass" required/>
                                 </div>
                                   <div class="col-md-6 contact-right">
 					
-                                      <a href="menuSecretaria.html"><input type="submit" name="btnEnviar" id="btnEnviar" value="Enviar" /></a>
+                                      <a href="menuSecretaria.blade.php"><input type="submit" name="btnEnviar" id="btnEnviar" value="Enviar" /></a>
                                       <img src="images/llave.gif">
                                       
 				 </div>

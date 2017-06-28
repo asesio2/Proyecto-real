@@ -26,23 +26,23 @@ and open the template in the editor.
         <div class="full">
             <div class="menu">
                 <ul>
-                    <li><a href="index.html"><div class="hm"><i class="home1" style="color: white">Inicio</i><i class="home2">Inicio</i></div></a></li>
-                    <li><a href="listarSecretaria.html"><div class="bk"><i class="booking" style="color: white">Listar</i><i class="booking1">Listar</i></div></a></li>
-                    <li><a href="menuDirector.html"><div class="bk"><i class="booking" style="color: white">Tutorias</i><i class="booking1">Tutorias</i></div></a></li>
-                    <li><a href="menuInspector.html"><div class="bk"><i class="booking" style="color: white">Agendar</i><i class="booking1">Agendar</i></div></a></li>
-                    <li><a href="menuInspector.html"><div class="bk"><i class="booking" style="color: white">Marcacion</i><i class="booking1">Marcacion</i></div></a></li>
+                    <li><a href="index.blade.php"><div class="hm"><i class="home1" style="color: white">Inicio</i><i class="home2">Inicio</i></div></a></li>
+                    <li><a href=""><div class="bk"><i class="booking" style="color: white">Listar</i><i class="booking1">Listar</i></div></a></li>
+                    <li><a href=""><div class="bk"><i class="booking" style="color: white">Tutorias</i><i class="booking1">Tutorias</i></div></a></li>
+                    <li><a href=""><div class="bk"><i class="booking" style="color: white">Agendar</i><i class="booking1">Agendar</i></div></a></li>
+                    <li><a href=""><div class="bk"><i class="booking" style="color: white">Marcacion</i><i class="booking1">Marcacion</i></div></a></li>
                 </ul>
             </div>
             <div class="main">
                 <div class="contact-content">
                     <div class="top-header span_top">
                         <div class="logo">
-                            <a href="index.html"><img src="images/logoOficial.png" alt="" /></a>
+                            <a href="index.blade.php"><img src="images/logoOficial.png" alt="" /></a>
                             <p></p>
                         </div>
                         <div class="search v-search">
                             <form>
-                                <a href="ingreso.html"><img src="images/cerrarSesion.png" width="40px">Cerrar Sesion</a>
+                                <a href="ingreso.blade.php"><img src="images/cerrarSesion.png" width="40px">Cerrar Sesion</a>
                             </form>
                         </div>
                         <div class="clearfix"></div>
@@ -80,3 +80,4 @@ and open the template in the editor.
             </div>
     </body>
 </html>
+
