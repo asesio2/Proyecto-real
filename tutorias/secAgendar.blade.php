@@ -26,11 +26,11 @@ and open the template in the editor.
         <div class="full">
             <div class="menu">
                 <ul>
-                    <li><a href="index.blade.php"><div class="hm"><i class="home1" style="color: white">Inicio</i><i class="home2">Inicio</i></div></a></li>
-                    <li><a href="dirAlumno.blade.php"><div class="bk"><i class="booking" style="color: white">Alumnos</i><i class="booking1">Alumnos</i></div></a></li>
-                    <li><a href="dirProfesor.blade.php"><div class="bk"><i class="booking" style="color: white">Profesores</i><i class="booking1">Profesores</i></div></a></li>
-                    <li><a href="dirTutorias.blade.php"><div class="bk"><i class="booking" style="color: white">Tutorias</i><i class="booking1">Tutorias</i></div></a></li>
-                    <li><a href="estadisticas.blade"><div class="bk"><i class="booking" style="color: white">Estadisticas</i><i class="booking1">Estadisticas</i></div></a></li>
+                     <li><a href="index.blade.php"><div class="hm"><i class="home1" style="color: white">Inicio</i><i class="home2">Inicio</i></div></a></li>
+                    <li><a href="secAgendar.blade.php"><div class="bk"><i class="booking" style="color: white">Agendar</i><i class="booking1">Agendar</i></div></a></li>
+                    <li><a href="secConfirmar.blade.php"><div class="bk"><i class="booking" style="color: white">Confirmar y Anular</i><i class="booking1">Confirmar y Anular</i></div></a></li>
+                    <li><a href="menuSecretaria.blade.php"><div class="bk"><i class="" style="color: white">Volver</i><i class="">Volver</i></div></a></li>
+                    
                 </ul>
             </div>
             <div class="main">
@@ -47,23 +47,29 @@ and open the template in the editor.
                         </div>
                         <div class="clearfix"></div>
                     </div>
-                    <!---contact-->
-                    <div class="special" >
-                        <center>
-                            <h1>Director</h1>
+                    <div class="main-contact">
+                        <h3 class="head">Registro de Tutorias</h3>
+                        <p>Favor Completar Todos Los Campos</p>
+                        <div class="contact-form">
+                            <form>
+                                <div class="col-md-6 contact-left">
+                                    <input type="text" placeholder="Numero Secuencia" required/>
+                                    <input type="text" placeholder="Fecha y Hora de la tutoria" required/>                                        
+                                    <input type="text" placeholder="Alumno que Recibe Tutoria" required/>
+                                    <input type="text" placeholder="Profesor que realizo la Tutoria" required/>
+                                    <input type="text" placeholder="Estado" required/>                                        
+                                    
 
-                            <h2 style="margin-top: 7%">
-                                <p> Bienvenida Usuario :...............  En esta seccion Usted podra Realizar.. <br><br>
-                                    Alumnos : Listar y consultar alumnos. <br>
-                                    Profesor : Listar y consultar profesores . <br>
-                                    Tutorias : Listar y consultar  tutorías. <br>
-                                    Estadisticas : Consultar estadísticas del sistema. <br>
-                                    <br></p></h2>
-
-                            <img src="images/director.gif" width="200px">
-                        </center>
-
-                    </div>
+                                </div>
+                                <div class="col-md-6 contact-right">
+                                    
+                                    <input type="submit" value="SEND"/>
+                                </div>
+                                <div class="clearfix"></div>
+                            </form>
+                        </div>
+                    
+                    
                     <div class="footer">
                         <center>
                             <h3>Consultas : </h3>

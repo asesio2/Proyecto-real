@@ -27,10 +27,7 @@ and open the template in the editor.
             <div class="menu">
                 <ul>
                     <li><a href="index.blade.php"><div class="hm"><i class="home1" style="color: white">Inicio</i><i class="home2">Inicio</i></div></a></li>
-                    <li><a href="dirAlumno.blade.php"><div class="bk"><i class="booking" style="color: white">Alumnos</i><i class="booking1">Alumnos</i></div></a></li>
-                    <li><a href="dirProfesor.blade.php"><div class="bk"><i class="booking" style="color: white">Profesores</i><i class="booking1">Profesores</i></div></a></li>
-                    <li><a href="dirTutorias.blade.php"><div class="bk"><i class="booking" style="color: white">Tutorias</i><i class="booking1">Tutorias</i></div></a></li>
-                    <li><a href="estadisticas.blade"><div class="bk"><i class="booking" style="color: white">Estadisticas</i><i class="booking1">Estadisticas</i></div></a></li>
+                    <li><a href="menuAlumno.blade.php"><div class="bk"><i class="" style="color: white">Volver</i><i class=""></i></div></a></li>
                 </ul>
             </div>
             <div class="main">
@@ -47,23 +44,14 @@ and open the template in the editor.
                         </div>
                         <div class="clearfix"></div>
                     </div>
-                    <!---contact-->
-                    <div class="special" >
-                        <center>
-                            <h1>Director</h1>
-
-                            <h2 style="margin-top: 7%">
-                                <p> Bienvenida Usuario :...............  En esta seccion Usted podra Realizar.. <br><br>
-                                    Alumnos : Listar y consultar alumnos. <br>
-                                    Profesor : Listar y consultar profesores . <br>
-                                    Tutorias : Listar y consultar  tutorías. <br>
-                                    Estadisticas : Consultar estadísticas del sistema. <br>
-                                    <br></p></h2>
-
-                            <img src="images/director.gif" width="200px">
-                        </center>
-
-                    </div>
+                    <form>
+                        <div>
+                            <h1>Listar y consultar tutorias</h1>
+                        </div>
+                           
+                        
+                        
+                    </form>
                     <div class="footer">
                         <center>
                             <h3>Consultas : </h3>
@@ -81,4 +69,6 @@ and open the template in the editor.
             </div>
     </body>
 </html>
+
+
 

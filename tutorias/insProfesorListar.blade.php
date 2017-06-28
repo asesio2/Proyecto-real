@@ -27,10 +27,9 @@ and open the template in the editor.
             <div class="menu">
                 <ul>
                     <li><a href="index.blade.php"><div class="hm"><i class="home1" style="color: white">Inicio</i><i class="home2">Inicio</i></div></a></li>
-                    <li><a href="secListar.blade.php"><div class="bk"><i class="booking" style="color: white">Listar</i><i class="booking1">Listar</i></div></a></li>
-                    <li><a href="secListarTutorias.blade.php"><div class="bk"><i class="booking" style="color: white">Tutorias</i><i class="booking1">Tutorias</i></div></a></li>
-                    <li><a href="secAgendar.blade.php"><div class="bk"><i class="booking" style="color: white">Agendar</i><i class="booking1">Agendar</i></div></a></li>
-                    <li><a href="secMarca.blade.php"><div class="bk"><i class="booking" style="color: white">Marcacion</i><i class="booking1">Marcacion</i></div></a></li>
+                    <li><a href="insAlumnoRegistro.blade.php"><div class="bk"><i class="booking" style="color: white">Registrar</i><i class="booking1">Registrar</i></div></a></li>
+                    <li><a href="menuInspector.blade.php"><div class="bk"><i class="booking" style="color: white">Volver</i><i class="booking1"></i></div></a></li>
+                    
                 </ul>
             </div>
             <div class="main">
@@ -47,22 +46,16 @@ and open the template in the editor.
                         </div>
                         <div class="clearfix"></div>
                     </div>
-                    <!---contact-->
-                    <div class="special" >
-                        <center>
-                            <h1>Secretaria</h1>
-
-                            <h2 style="margin-top: 7%">
-                                <p> Bienvenida Usuario :...............  En esta seccion Usted podra Realizar.. <br><br>
-                                    Listar : Listar y consultar alumnos y profesores. <br>
-                                    Tutorias : Listar y consultar tutorías. <br>
-                                    Agendar : Agendar, confirmar y anular tutorías. <br>
-                                    Marcacion : Marcar como perdida o realizada una tutoría. <br></p></h2>
-
-                            <img src="images/secretario.gif" width="200px">
-                        </center>
-
-                    </div>
+                    <form>
+                        <div>
+                            <h1>Listar y Eliminar Profesores</h1>
+                        </div>
+                           
+                        
+                        
+                    </form>
+                    
+                    
                     <div class="footer">
                         <center>
                             <h3>Consultas : </h3>

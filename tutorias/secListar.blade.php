@@ -31,6 +31,8 @@ and open the template in the editor.
                     <li><a href="secListarTutorias.blade.php"><div class="bk"><i class="booking" style="color: white">Tutorias</i><i class="booking1">Tutorias</i></div></a></li>
                     <li><a href="secAgendar.blade.php"><div class="bk"><i class="booking" style="color: white">Agendar</i><i class="booking1">Agendar</i></div></a></li>
                     <li><a href="secMarca.blade.php"><div class="bk"><i class="booking" style="color: white">Marcacion</i><i class="booking1">Marcacion</i></div></a></li>
+                    <li><a href="menuSecretaria.blade.php"><div class="bk"><i class="" style="color: white">Volver</i><i class="">Volver</i></div></a></li>
+                    
                 </ul>
             </div>
             <div class="main">
@@ -47,20 +49,15 @@ and open the template in the editor.
                         </div>
                         <div class="clearfix"></div>
                     </div>
-                    <!---contact-->
-                    <div class="special" >
-                        <center>
-                            <h1>Secretaria</h1>
-
-                            <h2 style="margin-top: 7%">
-                                <p> Bienvenida Usuario :...............  En esta seccion Usted podra Realizar.. <br><br>
-                                    Listar : Listar y consultar alumnos y profesores. <br>
-                                    Tutorias : Listar y consultar tutorías. <br>
-                                    Agendar : Agendar, confirmar y anular tutorías. <br>
-                                    Marcacion : Marcar como perdida o realizada una tutoría. <br></p></h2>
-
-                            <img src="images/secretario.gif" width="200px">
-                        </center>
+                   <form>
+                        <div>
+                            <h1>Listar y Eliminar Alumnos y profesores</h1>
+                        </div>
+                           
+                        
+                        
+                    </form>
+                    
 
                     </div>
                     <div class="footer">
@@ -80,4 +77,3 @@ and open the template in the editor.
             </div>
     </body>
 </html>
-

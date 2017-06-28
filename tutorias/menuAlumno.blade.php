@@ -27,7 +27,7 @@ and open the template in the editor.
             <div class="menu">
                 <ul>
                     <li><a href="index.blade.php"><div class="hm"><i class="home1" style="color: white">Inicio</i><i class="home2">Inicio</i></div></a></li>
-                    <li><a href=""><div class="bk"><i class="booking" style="color: white">Listar</i><i class="booking1">Listar</i></div></a></li>
+                    <li><a href="aluTutorias.blade.php"><div class="bk"><i class="booking" style="color: white">Listar</i><i class="booking1">Listar</i></div></a></li>
                 </ul>
             </div>
             <div class="main">
